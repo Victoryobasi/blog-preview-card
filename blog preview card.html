@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Figtree", sans-serif;
+            background-color: hsl(47, 88%, 63%);
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+            align-content: center;
+            line-height: 35px;
+        }
+        .container {
+            background-color: hsl(0, 0%, 100%);
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 340px;
+            height: 450px;
+            margin: 0px auto;
+            border-bottom: 6px solid;
+            border-right: 8px solid;
+            padding: 20px;
+            
+            
+        }
+        .learning{
+            background-color:  rgb(252, 218, 94);
+            text-align: center;
+            width: 110px;
+            border-radius: 4px;
+            height: 30px;
+            margin: 20px 1px;
+            
+        }
+        .date{
+            text-align: left;
+            color: hsl(0, 0%, 42%);
+            font-size: 16px;
+            margin-top: -15px;
+        }
+        .type{
+            text-align: left;
+            color: hsl(0, 0%, 7%);
+            margin-top: -7px;
+        }
+        .text{
+            text-align: left;
+            line-height: 20px;
+            color: hsl(0, 0%, 42%);
+            margin-top: -1px;
+        }
+        .image{
+            display: flex;
+            margin-top: 10px;
+            gap: 15px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div>
+                <div class="image">
+                    <img src="./assets/images/illustration-article.svg" alt="" style="border-radius: 10px; width: 100%;">
+                </div>
+                <div class="learning">
+                    <h3>Learning</h3>
+                </div>
+                <div class="date">
+                    <p>Published 21 Dec 2023</p>
+                </div>
+            </div>
+            <div class="text2">
+                <div class="type">
+                    <h4>HTML & CSS foundations</h4>
+                </div>
+                <div class="gap">
+                    <div class="text">
+                        <p>These languages are backbone of every</p>
+                        <p>website, defining structure, content, and </p>
+                        <p>presentation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./assets/images/image-avatar.webp" alt="" style="height: 30px; width: 30px;">
+                <h5>Greg Hooper</h5>
+            </div>
+        </div>
+    </div>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Victory Obasi Oguchiluru</a>.
+  </div>
+</body>
+</html>
